@@ -5,7 +5,7 @@ return (function(...)
 		if not game:IsLoaded() then
 			game.Loaded:Wait();
 		end
-		if (not syn or not protectgui) then
+		if not syn or not protectgui then
 			(getgenv()).protectgui = function()
 			end;
 		end
